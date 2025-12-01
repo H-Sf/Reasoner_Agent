@@ -29,4 +29,3 @@ Repository Structure
 - data/ → three small datasets for testing
 - optimization/ → MILP model notebook (Adaptive_service_placement_using_mathematical_optimization_for_intent_aware_QoS.ipynb)
 - llm_model/ → LLM-based reasoner (llm_reasoner_gpt.py)
-- evaluation.pdf → contains the evaluation results and discussion
