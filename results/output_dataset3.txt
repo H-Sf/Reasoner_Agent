@@ -1,0 +1,34 @@
+Dataset 3
+
+LLM-based model results:
+- Intent i1 → Node g1
+- Intent i2 → Node n2
+- Intent i3 → Node n1
+- Intent i4 → Node n3
+- Intent i5 → Node n3
+- Intent i6 → No results (insufficient resources)
+
+MILP solver results:
+Optimal solution found
+Objective value: 5618.333333333333
+Execution time: 0.2183 seconds
+
+Service placement:
+- Service s1 (Voice_Converter) → Node g1
+- Service s2 (Protocol_Converter) → Node n3
+- Service s3 (AR_Generator) → Node n3
+- Service s4 (Content_Displayer) → Node n2
+- Service s5 (Error_Detector) → Node n2
+- Service s6 (Anomaly_Analyzer) → Node n2
+
+Node usage per intention:
+- Intention i1 (Quick voice conversion) uses Node g1
+- Intention i2 (AR generation with protocol conversion) uses Node n3
+- Intention i3 (Content display with error detection) uses Node n2
+- Intention i4 (Full anomaly analysis) uses Node n2
+- Intention i5 (AR pipeline) uses Node g1
+- Intention i5 (AR pipeline) uses Node n2
+- Intention i5 (AR pipeline) uses Node n3
+- Intention i6 (Heavy workload (all services)) uses Node g1
+- Intention i6 (Heavy workload (all services)) uses Node n2
+- Intention i6 (Heavy workload (all services)) uses Node n3

@@ -1,0 +1,130 @@
+Dataset 4
+
+LLM-based model results:
+i1 → s1 → Node g1
+i2 → s2 → Node n12
+i3 → s3 → Node n9
+i4 → s4 → Node n9 / s5 → Node n12
+i5 → s5 → Node n12 / s6 → Node n12
+i6 → s5 → Node n12 / s6 → Node n12
+i7 → s3 → Node n9 / s4 → Node n9
+i8 → s5 → Node n12
+i9 → s3 → Node n9 / s4 → Node n9
+i10 → s6 → Node n12
+i11 → s2 → Node n12 / s5 → Node n12
+i12 → s3 → Node n9 / s4 → Node n9
+i13 → s2 → Node n12 / s6 → Node n12
+i14 → s4 → Node n9 / s5 → Node n12
+i15 → s1 → Node g1 / s2 → Node n12 / s3 → Node n9 / s4 → Node n9 / s5 → Node n12 / s6 → Node n12
+i16 → s5 → Node n12 / s6 → Node n12
+i17 → s3 → Node n9 / s4 → Node n9 / s5 → Node n12
+i18 → s2 → Node n12 / s6 → Node n12
+i19 → s3 → Node n9 / s4 → Node n9
+i20 → s5 → Node n12 / s6 → Node n12
+i21 → s5 → Node n12 / s6 → Node n12
+i22 → s3 → Node n9 / s4 → Node n9
+i23 → s6 → Node n12
+i24 → s3 → Node n9 / s4 → Node n9
+i25 → s1 → Node g1
+i26 → s2 → Node n12
+i27 → s3 → Node n9 / s4 → Node n9
+i28 → s5 → Node n12 / s6 → Node n12
+i29 → s5 → Node n12 / s6 → Node n12
+i30 → s3 → Node n9 / s4 → Node n9
+i31 → s5 → Node n12
+i32 → s6 → Node n12
+i33 → s2 → Node n12 / s5 → Node n12
+i34 → s3 → Node n9 / s4 → Node n9
+i35 → s2 → Node n12 / s6 → Node n12
+i36 → s4 → Node n9 / s5 → Node n12
+i37 → s1 → Node g1 / s2 → Node n12 / s3 → Node n9 / s4 → Node n9 / s5 → Node n12 / s6 → Node n12
+i38 → s5 → Node n12 / s6 → Node n12
+i39 → s3 → Node n9 / s4 → Node n9 / s5 → Node n12
+i40 → s2 → Node n12 / s6 → Node n12
+i41 → s3 → Node n9 / s4 → Node n9
+i42 → s5 → Node n12 / s6 → Node n12
+i43 → s1 → Node g1 / s3 → Node n9
+i44 → s2 → Node n12 / s6 → Node n12
+i45 → s3 → Node n9 / s4 → Node n9
+i46 → s5 → Node n12 / s6 → Node n12
+i47 → s4 → Node n9 / s5 → Node n12
+i48 → s1 → Node g1 / s2 → Node n12 / s3 → Node n9 / s4 → Node n9 / s5 → Node n12 / s6 → Node n12
+i49 → s2 → Node n12 / s3 → Node n9 / s4 → Node n9
+i50 → s5 → Node n12 / s6 → Node n12
+
+MILP solver results:
+Optimal solution found
+Objective value: 23060.0
+Execution time: 0.4965 seconds
+
+Service placement:
+ - Service s1 → Node g1
+ - Service s2 → Node n12
+ - Service s3 → Node n9
+ - Service s4 → Node n9
+ - Service s5 → Node n12
+ - Service s6 → Node n12
+
+Node usage per intention:
+ - Intention i1 uses Node g1
+ - Intention i2 uses Node n12
+ - Intention i3 uses Node n9
+ - Intention i4 uses Node n9
+ - Intention i4 uses Node n12
+ - Intention i5 uses Node n12
+ - Intention i6 uses Node n12
+ - Intention i7 uses Node n9
+ - Intention i9 uses Node n9
+ - Intention i10 uses Node n12
+ - Intention i11 uses Node n12
+ - Intention i12 uses Node n9
+ - Intention i13 uses Node n12
+ - Intention i14 uses Node n9
+ - Intention i14 uses Node n12
+ - Intention i15 uses Node g1
+ - Intention i15 uses Node n9Node n9
+ - Intention i15 uses Node n12
+ - Intention i16 uses Node n12
+ - Intention i17 uses Node n9
+ - Intention i17 uses Node n12
+ - Intention i18 uses Node n12
+ - Intention i19 uses Node n9
+ - Intention i20 uses Node n12
+ - Intention i21 uses Node n12
+ - Intention i22 uses Node n9
+ - Intention i23 uses Node n12
+ - Intention i24 uses Node n9
+ - Intention i25 uses Node g1
+ - Intention i26 uses Node n12
+ - Intention i27 uses Node n9
+ - Intention i28 uses Node n12
+ - Intention i29 uses Node n12
+ - Intention i30 uses Node n9
+ - Intention i32 uses Node n12
+ - Intention i33 uses Node n12
+ - Intention i34 uses Node n9
+ - Intention i35 uses Node n12
+ - Intention i36 uses Node n9
+ - Intention i36 uses Node n12
+ - Intention i37 uses Node g1
+ - Intention i37 uses Node n9
+ - Intention i37 uses Node n12
+ - Intention i38 uses Node n12
+ - Intention i39 uses Node n9
+ - Intention i39 uses Node n12
+ - Intention i40 uses Node n12
+ - Intention i41 uses Node n9
+ - Intention i42 uses Node n12
+ - Intention i43 uses Node g1
+ - Intention i43 uses Node n9
+ - Intention i44 uses Node n12
+ - Intention i45 uses Node n9
+ - Intention i46 uses Node n12
+ - Intention i47 uses Node n9
+ - Intention i47 uses Node n12
+ - Intention i48 uses Node g1
+ - Intention i48 uses Node n9
+ - Intention i48 uses Node n12
+ - Intention i49 uses Node n9
+ - Intention i49 uses Node n12
+ - Intention i50 uses Node n12 
