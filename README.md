@@ -27,6 +27,6 @@ python placement.py --json_path problem.json --model gpt-4o-mini
 
 Repository Structure
 - data/ → three small datasets for testing
-- optimization/ → MILP model notebook (Adaptive_service_placement_using_mathematical_optimization_for_intent_aware_QoS.ipynb)
+- optimization/ → MILP solver model notebook (Adaptive_service_placement_using_mathematical_optimization_for_intent_aware_QoS.ipynb)
 - llm_model/ → LLM-based reasoner (llm_reasoner_gpt.py)
-- evaluation.pdf → contains the evaluation results and discussion
+- results/ → LLM-based and MILP solver models outputs
