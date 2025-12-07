@@ -1,11 +1,10 @@
 Dataset 1
 
 LLM-based model results:
-
-Intention	Feasible	Assignment (service → node)	Objective (sum t1 ms)
-i1	Yes	s1→g1, s2→n4, s3→n4, s4→n2	199
-i2	Yes	s1→g1, s2→g2, s3→n4, s4→n2	189
-i3	Yes	s1→g1, s2→g2, s3→n4, s4→n2	189
-i4	No	— (infaisable)
+- Intent i1	→ s1→g1, s2→n4, s3→n4, s4→n2
+- Intent i2	→ s1→g1, s2→g2, s3→n4, s4→n2
+- Intent i3	→ s1→g1, s2→g2, s3→n4, s4→n2
+- Intent i4	→ No results (infeasible)
 
 MILP solver:
+Produces the same output as the LLM-based model.

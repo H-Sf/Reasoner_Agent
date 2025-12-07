@@ -1,0 +1,12 @@
+Dataset 2
+
+LLM-based model results:
+- Intent i1	→ s1→g1	
+- Intent i2	→ s2→n2, s3→n3	
+- Intent i3	→ s4→n2, s5→n3	
+- Intent i4	→ s5,s6→n3	
+- Intent i5	→ s1,s2,s3,s4→n3	
+- Intent i6	→ No results (infeasible)
+
+MILP solver results:
+No results produced.
