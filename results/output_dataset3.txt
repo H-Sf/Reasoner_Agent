@@ -12,6 +12,6 @@ MILP solver results:
 Intent i1 → s1 → Node g1
 Intent i2 → s2 → Node n3 / s3 → Node n3
 Intent i3 → s4 → Node n2 / s5 → Node n2
-Intent i4 → s6 → Node n2
-Intent i5 → s1 → Node g1 / s2 → Node n3 / s3 → Node n3 / s4 → Node n2 / s5 → Node n2 / s6 → Node n2
+Intent i4 → s5 → Node n2 / s6 → Node n2
+Intent i5 → s1 → Node g1 / s2 → Node n3 / s3 → Node n3 / s4 → Node n2
 Intent i6 → s1 → Node g1 / s2 → Node n3 / s3 → Node n3 / s4 → Node n2 / s5 → Node n2 / s6 → Node n2
