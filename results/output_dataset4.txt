@@ -60,7 +60,7 @@ MILP solver results:
 - Intent i5 → s2 → Node n12 / s5 → Node n12 / s6 → Node n12
 - Intent i6 → s2 → Node n12 / s5 → Node n12 / s6 → Node n12
 - Intent i7 → s3 → Node n9 / s4 → Node n9
-- Intent i8 → No results
+- Intent i8 → s5 → Node n12
 - Intent i9 → s3 → Node n9 / s4 → Node n9
 - Intent i10 → s2 → Node n12 / s5 → Node n12 / s6 → Node n12
 - Intent i11 → s2 → Node n12 / s5 → Node n12 / s6 → Node n12
@@ -83,7 +83,7 @@ MILP solver results:
 - Intent i28 → s2 → Node n12 / s5 → Node n12 / s6 → Node n12
 - Intent i29 → s2 → Node n12 / s5 → Node n12 / s6 → Node n12
 - Intent i30 → s3 → Node n9 / s4 → Node n9
-- Intent i31 → No results
+- Intent i31 → s5 → Node n12
 - Intent i32 → s2 → Node n12 / s5 → Node n12 / s6 → Node n12
 - Intent i33 → s2 → Node n12 / s5 → Node n12 / s6 → Node n12
 - Intent i34 → s3 → Node n9 / s4 → Node n9
