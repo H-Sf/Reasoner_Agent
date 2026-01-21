@@ -56,50 +56,50 @@ MILP solver results:
 - Intent i1 → s1→ Node g1
 - Intent i2 → s2→ Node n12
 - Intent i3 → s3→ Node n9
-- Intent i4 → s4→ Node n9/ s5→ Node n12
-- Intent i5 → s5→ Node n12/ s6→ Node n12
-- Intent i6 → s5→ Node n12/ s6→ Node n12
-- Intent i7 → s3→ Node n9/ s4→ Node n9
+- Intent i4 → s4→ Node n9 / s5→ Node n12
+- Intent i5 → s5→ Node n12 / s6→ Node n12
+- Intent i6 → s5→ Node n12 / s6→ Node n12
+- Intent i7 → s3→ Node n9 / s4→ Node n9
 - Intent i8 → No results
-- Intent i9 → s3→ Node n9/ s4→ Node n9
+- Intent i9 → s3→ Node n9 / s4→ Node n9
 - Intent i10 → s6→ Node n12
-- Intent i11 → s2→ Node n12/ s5→ Node n12
-- Intent i12 → s3→ Node n9/ s4→ Node n9
-- Intent i13 → s2→ Node n12/ s6→ Node n12
-- Intent i14 → s4→ Node n9/ s5→ Node n12
-- Intent i15 → s1→ Node g1/ s2→ Node n12/ s3→ Node n9/ s4→ Node n9/ s5→ Node n12/ s6→ Node n12
-- Intent i16 → s5→ Node n12/ s6→ Node n12
-- Intent i17 → s3→ Node n9/ s4→ Node n9/ s5→ Node n12
-- Intent i18 → s2→ Node n12/ s6→ Node n12
-- Intent i19 → s3→ Node n9/ s4→ Node n9
-- Intent i20 → s5→ Node n12/ s6→ Node n12
-- Intent i21 → s5→ Node n12/ s6→ Node n12
-- Intent i22 → s3→ Node n9/ s4→ Node n9
+- Intent i11 → s2→ Node n12 / s5→ Node n12
+- Intent i12 → s3→ Node n9 / s4→ Node n9
+- Intent i13 → s2→ Node n12 / s6→ Node n12
+- Intent i14 → s4→ Node n9 / s5→ Node n12
+- Intent i15 → s1→ Node g1 / s2→ Node n12 / s3→ Node n9 / s4→ Node n9 / s5→ Node n12 / s6→ Node n12
+- Intent i16 → s5→ Node n12 / s6→ Node n12
+- Intent i17 → s3→ Node n9 / s4→ Node n9 / s5→ Node n12
+- Intent i18 → s2→ Node n12 / s6→ Node n12
+- Intent i19 → s3→ Node n9 / s4→ Node n9
+- Intent i20 → s5→ Node n12 / s6→ Node n12
+- Intent i21 → s5→ Node n12 / s6→ Node n12
+- Intent i22 → s3→ Node n9 / s4→ Node n9
 - Intent i23 → s6→ Node n12
-- Intent i24 → s3→ Node n9/ s4→ Node n9
+- Intent i24 → s3→ Node n9 / s4→ Node n9
 - Intent i25 → s1→ Node g1
 - Intent i26 → s2→ Node n12
-- Intent i27 → s3→ Node n9/ s4→ Node n9
-- Intent i28 → s5→ Node n12/ s6→ Node n12
-- Intent i29 → s5→ Node n12/ s6→ Node n12
-- Intent i30 → s3→ Node n9/ s4→ Node n9
+- Intent i27 → s3→ Node n9 / s4→ Node n9
+- Intent i28 → s5→ Node n12 / s6→ Node n12
+- Intent i29 → s5→ Node n12 / s6→ Node n12
+- Intent i30 → s3→ Node n9 / s4→ Node n9
 - Intent i31 → No results
 - Intent i32 → s6→ Node n12
-- Intent i33 → s2→ Node n12/ s5→ Node n12
-- Intent i34 → s3→ Node n9/ s4→ Node n9
-- Intent i35 → s2→ Node n12/ s6→ Node n12
-- Intent i36 → s4→ Node n9/ s5→ Node n12
-- Intent i37 → s1→ Node g1/ s2→ Node n12/ s3→ Node n9/ s4→ Node n9/ s5→ Node n12/ s6→ Node n12
-- Intent i38 → s5→ Node n12/ s6→ Node n12
-- Intent i39 → s3→ Node n9/ s4→ Node n9/ s5→ Node n12
-- Intent i40 → s2→ Node n12/ s6→ Node n12
-- Intent i41 → s3→ Node n9/ s4→ Node n9
-- Intent i42 → s5→ Node n12/ s6→ Node n12
-- Intent i43 → s1→ Node g1/ s3→ Node n9
-- Intent i44 → s2→ Node n12/ s6→ Node n12
-- Intent i45 → s3→ Node n9/ s4→ Node n9
-- Intent i46 → s5→ Node n12/ s6→ Node n12
-- Intent i47 → s4→ Node n9/ s5→ Node n12
-- Intent i48 → s1→ Node g1/ s2→ Node n12/ s3→ Node n9/ s4→ Node n9/ s5→ Node n12/ s6→ Node n12
-- Intent i49 → s2→ Node n12/ s3→ Node n9/ s4→ Node n9
-- Intent i50 → s5→ Node n12/ s6→ Node n12
+- Intent i33 → s2→ Node n12 / s5→ Node n12
+- Intent i34 → s3→ Node n9 / s4→ Node n9
+- Intent i35 → s2→ Node n12 / s6→ Node n12
+- Intent i36 → s4→ Node n9 / s5→ Node n12
+- Intent i37 → s1→ Node g1 / s2→ Node n12 / s3→ Node n9 / s4→ Node n9 / s5→ Node n12 / s6→ Node n12
+- Intent i38 → s5→ Node n12 / s6→ Node n12
+- Intent i39 → s3→ Node n9 / s4→ Node n9 / s5→ Node n12
+- Intent i40 → s2→ Node n12 / s6→ Node n12
+- Intent i41 → s3→ Node n9 / s4→ Node n9
+- Intent i42 → s5→ Node n12 / s6→ Node n12
+- Intent i43 → s1→ Node g1 / s3→ Node n9
+- Intent i44 → s2→ Node n12 / s6→ Node n12
+- Intent i45 → s3→ Node n9 / s4→ Node n9
+- Intent i46 → s5→ Node n12 / s6→ Node n12
+- Intent i47 → s4→ Node n9 / s5→ Node n12
+- Intent i48 → s1→ Node g1 / s2→ Node n12 / s3→ Node n9 / s4→ Node n9 / s5→ Node n12 / s6→ Node n12
+- Intent i49 → s2→ Node n12 / s3→ Node n9 / s4→ Node n9
+- Intent i50 → s5→ Node n12 / s6→ Node n12
