@@ -6,7 +6,7 @@ Reasoner Agent combining LLM and MILP sources.
 
 Compare two implementations of a reasoner agent — an LLM-based reasoner and an optimization-based (MILP) reasoner — that generate placement plans matching services to nodes according to user intentions, when possible.
 
-Given a JSON file describing:
+The input is a JSON dataset file describing:
 - Intents concerning services and their specifics
 - Services and their requirements
 - Nodes and their capabilities
