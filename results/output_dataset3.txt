@@ -1,17 +1,17 @@
 Dataset 3
 
 LLM-based model results:
-- Intent i1 → Node g1
-- Intent i2 → Node n2
-- Intent i3 → Node n1
-- Intent i4 → Node n3
-- Intent i5 → Node n3
-- Intent i6 → No results (infeasible)
+- Intent i1 : s1 → g1
+- Intent i2 : s2, s3 → n2
+- Intent i3 : s4, s5 → n1
+- Intent i4 : s5, s6 → n3
+- Intent i5 : s1, s2, s3, s4 → n3
+- Intent i6 : No results (infeasible)
 
 MILP solver results:
-Intent i1 → s1 → Node g1
-Intent i2 → s2 → Node n3 / s3 → Node n3
-Intent i3 → s4 → Node n2 / s5 → Node n2
-Intent i4 → s5 → Node n2 / s6 → Node n2
-Intent i5 → s1 → Node g1 / s2 → Node n3 / s3 → Node n3 / s4 → Node n2
-Intent i6 → s1 → Node g1 / s2 → Node n3 / s3 → Node n3 / s4 → Node n2 / s5 → Node n2 / s6 → Node n2
+Intent i1 : s1 → g1
+Intent i2 : s2, s3 → n3
+Intent i3 : s4, s5 → n2
+Intent i4 : s5, s6 → n2
+Intent i5 : s1 → g1 / s2, s3 → n3 / s4 → n2
+Intent i6 : s1 → g1 / s2, s3 → n3 / s4, s5, s6 → n2
