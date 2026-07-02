@@ -86,4 +86,4 @@ Example dataset: see `datasets/` directory.
 - `datasets/` → four intent datasets for testing (JSON files)
 - `llm_model/` → LLM-based reasoner (`llm_reasoner_gpt.py`)
 - `milp_solver/` → MILP solver model notebook (`Adaptive_service_placement_using_mathematical_optimization_for_intent_aware_QoS.ipynb`)
-- `results/` → LLM-based and MILP solver model outputs (text files, one per dataset)
+- `llm_milp_outputs/` → LLM-based and MILP solver model outputs (text files, one per dataset)
