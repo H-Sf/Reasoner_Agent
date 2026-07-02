@@ -4,7 +4,7 @@ Reasoner Agent combining LLM and MILP sources.
 
 ## Objective
 
-Compare two implementations of a reasoner agent — an LLM-based reasoner and an optimization-based (MILP) reasoner — that generate placement plans matching services to nodes according to user intentions, when possible.
+Compare two implementations of a reasoner agent — an LLM-based reasoner and an optimization-based (MILP) reasoner — that generate placement plans matching services to nodes according to user intentions, when feasible.
 
 The input is a JSON dataset file describing:
 - Intents concerning services and their specifics
@@ -12,7 +12,13 @@ The input is a JSON dataset file describing:
 - Nodes and their capabilities
 - Network latencies
 
-(see examples in the `datasets/` directory)
+Four datasets are used:
+- Dataset 1: comprising four balanced and feasible intents;
+- Dataset 2: comprising six intents with strict baseline resource requirements and, in some cases, additional resource demands, resulting in highly constrained or infeasible placements;
+- Dataset 3: comprising six medium-scale intents that are feasible but more complex;
+- Dataset 4: comprising fifty intents with strict QoS requirements.
+
+(see details in the `datasets/` directory)
 
 ## Optimization (MILP solver)
 
@@ -36,13 +42,13 @@ setx OPENAI_API_KEY "sk-xxxx..."     # Windows
 ### Run
 
 ```bash
-python placement.py --json_path problem.json
+python placement.py --json_path dataset.json
 ```
 
 Optional:
 
 ```bash
-python placement.py --json_path problem.json --model gpt-4o-mini
+python placement.py --json_path dataset.json --model gpt-4o-mini
 ```
 
 ## Input JSON Format
@@ -77,7 +83,7 @@ Example dataset: see `datasets/` directory.
 
 ## Repository Structure
 
-- `datasets/` → four datasets for testing (JSON files)
+- `datasets/` → four intent datasets for testing (JSON files)
 - `llm_model/` → LLM-based reasoner (`llm_reasoner_gpt.py`)
 - `milp_solver/` → MILP solver model notebook (`Adaptive_service_placement_using_mathematical_optimization_for_intent_aware_QoS.ipynb`)
 - `results/` → LLM-based and MILP solver model outputs (text files, one per dataset)
